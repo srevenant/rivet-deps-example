@@ -20,7 +20,7 @@ defmodule Example.MixProject do
   defp deps do
     [
       {:absinthe, "~> 1.7.1", optional: true},
-      {:rivet_ident, git: "git@github.com:srevenant/rivet-ident", branch: "master"},
+      {:rivet_ident, git: "https://github.com/srevenant/rivet-ident", branch: "master"},
       {:typed_ecto_schema, "~> 0.3.0 or ~> 0.4.1"}
     ]
   end
